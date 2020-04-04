@@ -1,0 +1,114 @@
+body {
+  background-color: #e4f9f5;
+}
+
+h1 {
+  color: #63227d;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 60px;
+  margin-top: 5%;
+}
+
+h2 {
+  color: #63227d;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h3 {
+  color: #793ace;
+  font-family: 'Patrick Hand', cursive;
+    /* font-family: 'Indie Flower', cursive; */
+  font-size: 45px;
+  margin-bottom: 3%;
+  text-shadow: 1px 1px #a94d99;
+  text-decoration: underline;
+}
+
+h5 {
+  color: #a94d99;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 30px;
+}
+
+.prichute {
+  text-decoration: underline;
+}
+
+label {
+  color: #6a528a;
+  font-family: 'Patrick Hand', cursive;
+    /* font-family: 'Indie Flower', cursive; */
+  font-size: 30px;
+    margin-left: 2%;
+}
+
+.basic {
+  width: 350px;
+  border: 2px solid #63227d;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 520px){
+  .basic{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+.next {
+  width: 250px;
+  border-top: 8px dotted #63227d;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width: 520px){
+.next {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+}
+.ordinary {
+  width: 20px;
+  height: 20px;
+}
+
+.menu {
+  background-color: #793ace;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.form-control{
+  width: 400px;
+  color: #793ace;
+  text-align: center;
+
+}
+
+
+.additiontext {
+ display: block;
+}
+
+button {
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 520px){
+  table {
+    text-align: center;
+  }
+  tr td {
+    display: block;
+  }
+  .info {
+    text-decoration: underline;
+  }
+}
